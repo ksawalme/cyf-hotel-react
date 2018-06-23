@@ -13,7 +13,7 @@ export default class Bookings extends Component {
       <div className="App-content">
         <div className="container">
           <Search search={this.search} />
-          {/* <Results results={this.state.results} /> */}
+          <Results results={FakeBookings} />
         </div>
       </div>
     );
